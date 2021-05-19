@@ -1,0 +1,32 @@
+.sidebar-widget--search {
+
+    background-color: $color-white;
+    height: $section-height-small;
+    border: 1px solid $color-primary;
+    
+    
+    &__input {
+        line-height: $section-height-small;
+        background-color: transparent;
+        width: calc(100% - #{$section-height-small});
+        display: block;
+        float: left;
+        border: none;
+        outline: none;
+        padding-left: 2rem;
+    }
+
+    &__button {
+        display: block;
+        outline: none;
+
+        height: 100%;
+        float: left;
+        width: $section-height-small;
+        background-color: $color-primary;
+        color: $color-white;
+        border: none;
+        cursor: pointer;
+    }
+}
+

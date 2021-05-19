@@ -1,0 +1,33 @@
+.outer-wrapper {
+    max-width: $outer-content-width;
+    margin: auto;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    
+    justify-content: space-between;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.inner-content {
+    flex: 0 0 calc(100% - #{$sidebar-width} - .5rem);
+    background-color: $color-white;
+    padding: $spacing-medium;
+    
+
+}
+
+.sidebar {
+    flex: 0 0 $sidebar-width;
+    margin-left: .5rem;
+}

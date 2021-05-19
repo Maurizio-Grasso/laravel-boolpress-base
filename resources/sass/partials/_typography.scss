@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: $default-font-size;
+    color: $color-text;
+}
+
+a {
+    &:link , 
+    &:visited {
+        color: $color-primary;
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: $color-primary-light;
+    }
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: $spacing-big;
+}
+
+.inner-content p {
+    margin-bottom: $spacing-big;
+}

@@ -1,0 +1,19 @@
+.sidebar {
+
+    background-color: $color-white;
+    padding: $spacing-medium;
+
+
+    &--right {
+
+    }
+
+    &-widget {
+        margin-bottom: $spacing-big;
+
+        &__heading {
+            margin-bottom: $spacing-medium;
+        }
+    }
+
+}

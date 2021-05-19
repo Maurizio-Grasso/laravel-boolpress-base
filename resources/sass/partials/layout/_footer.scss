@@ -1,0 +1,12 @@
+.footer {
+    height: $standard-section-height;
+    line-height: $standard-section-height - 2 * $spacing-medium;
+
+    padding: $spacing-medium;
+
+    color: $color-white;
+    background-color: $color-primary;
+    margin-top: .5rem;
+
+    text-align: center;
+}

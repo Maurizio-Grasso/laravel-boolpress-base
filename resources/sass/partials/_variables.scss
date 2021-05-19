@@ -1,0 +1,34 @@
+// Variables
+
+$color-primary: #037db0;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+
+$color-gray: rgb(82, 82, 82);
+$color-gray-light: rgb(221, 221, 221);
+$color-gray-dark: rgb(43, 43, 43);
+
+$color-white: #fff;
+
+$color-text: rgba($color-gray , .85);
+
+$default-font-size: 1.8rem;
+
+$spacing-medium: 1.5rem;
+$spacing-big:    3rem;
+
+$standard-section-height: 8rem; //header and footer
+$section-height-small: 5rem;
+
+$outer-content-width: 120rem;
+$sidebar-width: 25rem;
+
+// Mixins
+
+@mixin clearfix {
+    &::after{
+        content: '';
+        display: table;
+        clear: both;
+    }    
+}

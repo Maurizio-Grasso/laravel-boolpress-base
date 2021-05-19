@@ -1,0 +1,50 @@
+.sidebar-widget--share {
+    
+}
+
+.sidebar-social-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+
+.sidebar-social-icon {
+    flex: 0 0 calc(100% / 4);
+    height: $section-height-small;
+    text-align: center;
+
+    a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;        
+    }
+    
+    i {
+        color: $color-white;
+        line-height: $section-height-small;
+
+    }
+
+    &--facebook {
+        background-color: #395693;
+    }
+
+    &--whatsapp {
+        background-color: #22c15d;
+    }
+
+    &--twitter {
+        background-color: #1a93dd;
+    }
+
+    &--pinterest {
+        background-color: #aa0719;
+    }
+
+    &:not(:last-child) {
+        border-right: 1px solid $color-white;
+    }
+
+}
