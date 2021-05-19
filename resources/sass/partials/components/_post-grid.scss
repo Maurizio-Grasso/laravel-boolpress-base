@@ -10,6 +10,7 @@
     flex: 0 0 calc((100% - #{$spacing-medium} ) / 2);
     position: relative;
     min-height: 30rem;
+    margin-bottom: $spacing-medium;
 
     &__image {
         position: absolute;

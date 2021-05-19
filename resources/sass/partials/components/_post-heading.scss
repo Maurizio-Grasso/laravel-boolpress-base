@@ -7,10 +7,13 @@
     margin-bottom: $spacing-big;
 
     &__image {
-        flex: 0 0 35%;
+        flex: 0 0 40%;
+        width: 100%;
+        img {
+        }
     }
     &__title {
-        flex: 0 0 60%;
+        flex: 0 0 55%;
         font-size: 5rem;
         line-height: 7rem;
     }

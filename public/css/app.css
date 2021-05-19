@@ -138,7 +138,7 @@ h1 {
 }
 
 .sidebar-widget {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .sidebar-widget__heading {
@@ -157,6 +157,7 @@ h1 {
   flex: 0 0 calc((100% - 1.5rem ) / 2);
   position: relative;
   min-height: 30rem;
+  margin-bottom: 1.5rem;
 }
 
 .single-post__image {
@@ -279,11 +280,12 @@ h1 {
 }
 
 .post-heading__image {
-  flex: 0 0 35%;
+  flex: 0 0 40%;
+  width: 100%;
 }
 
 .post-heading__title {
-  flex: 0 0 60%;
+  flex: 0 0 55%;
   font-size: 5rem;
   line-height: 7rem;
 }
